@@ -1,0 +1,101 @@
+/* ./form.css */
+.form_momdiv{
+    line-height: 200%;
+    background-color: #F7F8FA;
+    max-width: 1920px;
+    padding:20px; 
+    border-radius: 20px;
+    width : 696px;
+    height: 486px;
+}
+
+.form_box{
+    border-radius: 9px;
+    background-color: white;
+    margin:12px 0px 12px 20px;
+    padding:15px;
+    display: flex;
+    height: 50px;
+    width: 294px;
+
+}
+.form_box_etc{
+    border-radius: 9px;
+    background-color: white;
+    margin:12px 0px 12px 20px;
+    padding:15px;
+    display: flex;
+    height: 50px;
+    width: 600px;
+}
+
+.for_input{
+     border: none;
+}
+.for_input_sele{
+    border: none;
+    width: 150px;
+}
+.addressinput{
+    width: 600px;
+}
+.addressinput>.for_input{
+    width:450px;
+}
+.bi{
+    font-size: 20px;
+}
+.forLabel{
+    margin-right: 20px;
+    font-size: 15px;
+} 
+
+.hourSelect_text{
+    font-size:15px;
+    font-weight: bold;
+}
+
+.selectable {
+    cursor: pointer;
+    width:109px;
+    height: 30px;
+    align-items: center !important;
+    /* padding-bottom :1rem; */
+    border-radius: 30px;
+    text-align: center !important;  
+    
+   
+}
+
+.selectable.selected {
+    background-color: lightgray; /* 선택되었을 때의 배경색 */
+    }
+
+    .subbtn{
+        border: none;
+        background: #F7A4A5;
+        padding: 0 1rem;
+        border-radius: 50px;
+        width: 300px;
+        height: 60px;
+        color:white;
+    }
+
+    .booking{
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        background-color: #396EE2;
+    }
+    .notbooking{
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        background-color: red;
+    }
+    .rest{
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        background-color: #d0d0d0;
+    }

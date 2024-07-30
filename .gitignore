@@ -1,0 +1,6 @@
+**/data/
+**/*.csv
+**/*.xml
+**/*.json
+**/petopia/
+# **/*.scss
